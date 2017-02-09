@@ -69,7 +69,8 @@ gulp.task('build-test', function() {
 
 gulp.task('test-ci', function () {
 	var testemOptions = {
-		file: 'testem.json'
+		file: 'testem.json',
+		skip: 'chromium'
 	};
 
 	var t = new testem();
