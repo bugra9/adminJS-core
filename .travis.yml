@@ -1,3 +1,6 @@
+language: node_js
+node_js:
+  - "node"
 addons:
   firefox: "49.0"
 before_script:
@@ -6,4 +9,4 @@ before_script:
   - sleep 3 # give xvfb some time to start
 install:
   - npm install
-script: npm test
+script: npm run test
