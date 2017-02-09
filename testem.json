@@ -1,0 +1,8 @@
+{
+  "framework": "mocha+chai",
+  "src_files": [
+    "lib/*.js",
+    "dist/AdminJS.js",
+    "dist/test.js"
+  ]
+}

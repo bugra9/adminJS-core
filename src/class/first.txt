@@ -1,0 +1,35 @@
+/**
+ * AdminJS v0.1
+ *
+ * @link   https://github.com/bugra9/adminJS
+ * @author bugra9 https://github.com/bugra9
+ * @license GPLv3
+ */
+
+/*
+ * ------------------------------------------------------------------------
+ * AdminJS, düz dosya bazlı içerik yönetim sistemidir. Dosya sisteminizde bulunan verilerinizi yönetmenizi sağlar.
+ *
+ * Özellikler: 
+ * 		- Açık kaynaklı özgür bir yazılımdır.
+ * 		- Veritabanı kullanmaz.
+ * 		- Kullanmak için dosya indirmek gerekmez. Sadece sitesine girmeniz yeterlidir. İlk girişten sonra kodları tarayıcı hafızasına aldığı için sonraki girişler için internet bağlantısı gerekmez.
+ * 		- Tarayıcı üzerinde istemci tarafında çalışır. Dolayısıyla dosyalarınızı sizden başkası görmez.
+ * 		- Github gibi git sistemi kullanarak dosya depolayan servisler ile tam uyumludur.
+ * 		- Metin halindeki dosyaları ve geri kalan dosyaları yönetmek için 2 kısımdan oluşur.
+ * 		- Yazı özelleştirmesi için markdown, özellik tanımlamaları için yml kullanılır.
+ * 		- Github gibi sistemlerde bulunan dosyaları yönetebileceği gibi yerelde bulunan dosyaları da yönetebilir.
+ * 		- Jekyll gibi düz dosya sistemini baz almış içerik oluşturucular ile tam uyumludur. 
+ * 		- Oldukça esnek bir çalışma yapısı olup istenilen sisteme göre özelleştirilebilir.
+ * 		- Oldukça basit bir kullanımı vardır.
+ * 		
+ * Teknik Bilgi:
+ * 		- Sistem fonksiyonel olarak parçalara bölünmüştür.
+ * 		- Sistemdeki fonksiyonlar çekirdek, görünüm ve işlevsel olarak üç başlık altında bulunur. 
+ * 		- Çekirdek fonksiyonlar dışında özelleştirmek istediğiniz yer varsa bu sınıftaki kodları değiştirmeden, bu sınıftan yeni bir sınıf türetin ve değişecek fonksiyonları tanımlayarak önceki fonksiyonları ezin.
+ * 		- Sistem açılan dizin altındaki dosyaları inceleyerek ortak özellikleri belirler. Veri listeleme altında bu ortak özellikleri gösterirken, veri ekleme listesinde bu ortak özellikleri tanımlamanızı ister.
+ *   	- Sistemin otomatik özellik belirlemesi dışında istenirse kullacılar dizinler için özellik tanımlaması yapabilir.
+ * ------------------------------------------------------------------------
+ */
+class AdminJS {
+	
