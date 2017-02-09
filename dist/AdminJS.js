@@ -3,7 +3,7 @@
  *
  * @link   https://github.com/bugra9/adminJS
  * @author bugra9 https://github.com/bugra9
- * @license GPLv3
+ * @license MIT
  */
 "use strict";
 

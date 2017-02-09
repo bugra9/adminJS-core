@@ -40,7 +40,7 @@ gulp.task('build-src', function() {
  *
  * @link   https://github.com/bugra9/adminJS
  * @author bugra9 https://github.com/bugra9
- * @license GPLv3
+ * @license MIT
  */
 ` }))
         .pipe(gulp.dest(jsDest))
@@ -51,7 +51,7 @@ gulp.task('build-src', function() {
  *
  * @link   https://github.com/bugra9/adminJS
  * @author bugra9 https://github.com/bugra9
- * @license GPLv3
+ * @license MIT
  */
 `}))
         .pipe(gulp.dest(jsDest));
